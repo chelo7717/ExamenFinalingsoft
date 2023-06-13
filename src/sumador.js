@@ -1,5 +1,9 @@
-function sumar(a, b) {
-  return a + b;
+function ocurrencias(frase, palabra) {
+  var cont=0;
+  if(frase==palabra){
+    cont++;
+    return palabra+":"+cont;
+  }
 }
 
-export default sumar;
+export default ocurrencias;

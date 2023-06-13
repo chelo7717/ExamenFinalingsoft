@@ -1,7 +1,7 @@
-import sumar from "./sumador.js";
+import ocurrencias from "./sumador.js";
 
-describe("Sumar", () => {
-  it("deberia sumar dos numeros", () => {
-    expect(sumar(3, 2)).toEqual(5);
+describe("ocurrencias", () => {
+  it("deberia mostra el numero de ocurrencias", () => {
+    expect(ocurrencias("El","El")).toEqual("El:1");
   });
 });
