@@ -4,7 +4,7 @@ function ocurrencias(frase, palabra) {
   var palabraCompleta=[];
   palabraCompleta=palabra.split(" ");
   fraseCompleta=frase.split(" ");
-  for(let i=0;i<=1;i++){
+  for(let i=0;i<=palabraCompleta.length;i++){
     if(fraseCompleta[i]==palabraCompleta[i]){
       cont++;
       return fraseCompleta+=fraseCompleta[i]+":"+cont+" ";
